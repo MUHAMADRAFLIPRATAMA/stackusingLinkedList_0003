@@ -50,4 +50,8 @@ class stack
             cout << "stack is empty" << endl;
             return; // if the stack is emptu, print a message and return
         }
-        
+        cout << "popped value:" << top->data << endl;
+        top = top->next;// update the top pointer to the next node
+    }
+
+    
