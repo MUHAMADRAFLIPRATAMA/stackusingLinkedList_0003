@@ -30,4 +30,5 @@ class stack
     int push (int value)
     {
         Node *newNode = new Node();//1. alocate memory for the new node
+        newNode->data = value; // 2.assign value
         
