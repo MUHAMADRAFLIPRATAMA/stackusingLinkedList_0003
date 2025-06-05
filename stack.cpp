@@ -14,3 +14,8 @@ Node()
 }
 };
 
+//stack class
+class stack
+{
+    private:
+    
