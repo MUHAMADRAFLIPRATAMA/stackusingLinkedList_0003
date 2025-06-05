@@ -38,4 +38,8 @@ class stack
     }
     //isEmpty operation: check if yhe stack is empty
     bool isEmpty()
+    {
+        return top == NULL; // return true if the top pointer is NULL
+    }
+
     
